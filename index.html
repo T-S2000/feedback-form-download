@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form to email using javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form"> 
+            <h3>Get In Touch</h3>
+            <input type="text" id="name" placeholder="Your Name" required> 
+            <input type="text" id="email" placeholder="email ID" required> 
+            <input type="text" id="phone" placeholder="phone Number" required>
+            <textarea id="message" rows="4" placeholder="How Can We Help You"></textarea>
+            <button type="submit" id="button">SEND</button>
+        </form>
+    </div>
+    <script src="script.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+</html>
